@@ -1,0 +1,18 @@
+#photo{
+	height: 150px;
+	width: 150px;
+	border-radius: 100px;
+}
+
+.bandeau{
+	width: 380px;
+	height: 100%;
+	background-color:#feca07;
+	position: absolute;
+   	bottom: 0;
+   	top: 0;
+   	left: 0;  
+}
+header{
+	text-align: center;
+}
