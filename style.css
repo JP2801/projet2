@@ -12,30 +12,34 @@
 }
 
 aside{
-	width: 35%;
-	height:fit-content;
+	width: 22%;
+	height:100%;
 	background-color:#feca07;
 	position:absolute;
    	top: 0;
    	left: 0;  
    	bottom: 0;
 }
-h1{
-	text-align: center;
-}
+
 #contact, #apropos, #loisirs{
 	text-align: center;
 }
 #logolinkedin, #logofacebook, #logotwitter{
-	width: 50px;
+	width:60px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+
 }
 #profil{
 	padding: 15px;
 }
 #texte{
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-right: 20px;
 	text-align: justify;
+	margin-top: 40px;	
+	margin-right: 60px;
+	margin-bottom: 40px;
 	
 }
 h3{
@@ -44,6 +48,8 @@ h3{
 	border: 2px; 
 	border-color:#646464; 
 	color: #feca07;
+	font-size: 30px;
+
 }
 body{
 	color: #68603f;
@@ -54,14 +60,95 @@ body{
 }
 h2{
 	font-size: 20px;
-	margin-left:-15%;
-	text-align: center;
 }
-header{
+header {
 	width: 70%;
-	margin-left: 35%;
+	margin-left: 25%;
+	margin-top: 0%;
+	padding-top: 5%;
 }
 #logolinkedin{
 	margin-left: 5%;
 	margin-right: 5%;
+}
+#ligne1{
+	width: 8%;
+	border: none;
+  	border-bottom: 1px solid #feca07 ;
+  	margin-top: -1%;
+  	margin-left: 0%;
+}
+#coordonees{
+	text-align: left;
+	margin-left: 10%;
+	margin-top: 80px;
+}
+#formation{
+	width: 70%;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+#experience{
+	margin-left: 25%;
+	width: 70%;
+	margin-top: 5%;
+}
+
+#ligne2, #ligne3{
+	width: auto;
+	border: none;
+  	border-bottom: 1px solid #feca07 ;
+  	margin-top: -1%;
+  	margin-left: auto;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height:25%;
+	margin-top: 5%;
+	margin-left: 18%;
+}
+body{
+	position: relative;
+	margin: 0;
+}
+h1, h2{
+	margin-top: 0;
+}
+.dates{
+	height: 150px;
+}
+.job{
+	height: 175px;
+}
+h4{
+	margin: 0;
+	magin-top: 10px;
+}
+.fas.fa-music{
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 50px;
+	margin-top: 20px;
+}
+.fas.fa-futbol, .fas.fa-gamepad{
+	font-size: 50px;
+	margin-top: 20px;
+}
+.fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase{
+	color: #feca07;
+	margin-right: 10px;
+}
+.fas.fa-graduation-cap{
+	
+	margin-top: 5%;
+}
+#marge{
+	margin-right: 50px;
+}
+@media all and (max-width: 1024px){
+	body{
+		width: auto;
+	}
 }
