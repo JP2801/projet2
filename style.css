@@ -7,14 +7,14 @@
 	text-align: center;
 	overflow: hidden;
 	display: block;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	box-shadow:0 0 12px 5px black;
 }
-
 aside{
 	width: 22%;
 	height:100%;
-	background-color:#feca07;
+	background-color:#039BE5;
 	position:absolute;
    	top: 0;
    	left: 0;  
@@ -39,27 +39,27 @@ aside{
 	text-align: justify;
 	margin-top: 40px;	
 	margin-right: 60px;
-	margin-bottom: 40px;
+	margin-bottom: 350px;
 	
 }
 h3{
 	text-align: center;
-	background-color:#404040; 
+	background-color:#BDBDBD; 
 	border: 2px; 
 	border-color:#646464; 
-	color: #feca07;
+	color: black;
 	font-size: 30px;
 
 }
 body{
-	color: #68603f;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 }
 .prenom{
-	color: #feca07;
+	color: #039BE5;
 }
 h2{
-	font-size: 20px;
+	font-size: 30px;
 }
 header {
 	width: 70%;
@@ -72,9 +72,9 @@ header {
 	margin-right: 5%;
 }
 #ligne1{
-	width: 8%;
+	width: 15%;
 	border: none;
-  	border-bottom: 1px solid #feca07 ;
+  	border-bottom: 1px solid #039BE5 ;
   	margin-top: -1%;
   	margin-left: 0%;
 }
@@ -88,16 +88,16 @@ header {
 	margin-left: 25%;
 	margin-top: 5%;
 }
-#experience{
+#experience, #recommandation{
 	margin-left: 25%;
 	width: 70%;
 	margin-top: 5%;
 }
 
-#ligne2, #ligne3{
+#ligne2, #ligne3, #ligne4{
 	width: auto;
 	border: none;
-  	border-bottom: 1px solid #feca07 ;
+  	border-bottom: 1px solid #039BE5 ;
   	margin-top: -1%;
   	margin-left: auto;
 }
@@ -109,6 +109,14 @@ header {
 	margin-top: 5%;
 	margin-left: 18%;
 }
+.recom{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height:25%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
 body{
 	position: relative;
 	margin: 0;
@@ -116,11 +124,23 @@ body{
 h1, h2{
 	margin-top: 0;
 }
+h1{
+	font-size: 50px;
+}
 .dates{
 	height: 150px;
 }
+#dates3{
+	margin-top: 50px;
+}
 .job{
 	height: 175px;
+}
+#job3{
+	margin-top: 30px;
+}
+.recom p{
+	margin-bottom: 30px;
 }
 h4{
 	margin: 0;
@@ -136,8 +156,8 @@ h4{
 	font-size: 50px;
 	margin-top: 20px;
 }
-.fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase{
-	color: #feca07;
+.fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase, .fas.fa-pencil-alt{
+	color: #039BE5;
 	margin-right: 10px;
 }
 .fas.fa-graduation-cap{
@@ -148,7 +168,63 @@ h4{
 	margin-right: 50px;
 }
 @media all and (max-width: 1024px){
-	body{
-		width: auto;
+	h1,h2{
+		text-align: center;
+		font-size: 25px;
+	}
+	#photo{
+		width: 100px;
+		height: 100px;
+		margin-top: 30px;
+	}
+	aside{
+		width: 25%;
+		height: 100%;
+	}
+	#ligne1{
+		display: none;
+	}
+	h3{
+		font-size: 10px;
+		
+	}
+	p{
+		font-size: 10px;
+	}
+	#coordonees{
+		margin-top: 10px;
+	}
+	#contact{
+		margin-top: -40px;
+	}
+	#logolinkedin{
+		
+		margin-top:10px;
+		width: 30px;
+	}
+	#logofacebook{
+		margin-top: 10px;
+		width: 30px;
+		
+	}
+	#logotwitter{
+		margin-top: 10px;
+		width: 30px;
+		
+	}
+	#texte{
+		text-align: left;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0%;
+		margin-bottom: 20px;
+	}
+	.fas.fa-music{
+		margin-left: 35px;
+	}
+	#profil{
+		padding: 0;
+		padding-top: 35px;
+
 	}
 }
