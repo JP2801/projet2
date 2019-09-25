@@ -13,7 +13,7 @@
 }
 aside{
 	width: 22%;
-	height:100%;
+	height:auto;
 	background-color:#039BE5;
 	position:absolute;
    	top: 0;
@@ -85,11 +85,11 @@ header {
 }
 #formation{
 	width: 70%;
-	margin-left: 25%;
+	margin-left: 28%;
 	margin-top: 5%;
 }
 #experience, #recommandation{
-	margin-left: 25%;
+	margin-left: 28%;
 	width: 70%;
 	margin-top: 5%;
 }
@@ -115,7 +115,7 @@ header {
 	width: 80%;
 	height:25%;
 	margin-top: 5%;
-	margin-left: 10%;
+	margin-left: 18%;
 }
 body{
 	position: relative;
@@ -131,13 +131,16 @@ h1{
 	height: 150px;
 }
 #dates3{
-	margin-top: 50px;
+	margin-top: 70px;
+}
+#marge{
+	margin-left: -7%;
 }
 .job{
 	height: 175px;
 }
 #job3{
-	margin-top: 30px;
+	margin-top: 50px;
 }
 .recom p{
 	margin-bottom: 30px;
@@ -164,13 +167,21 @@ h4{
 	
 	margin-top: 5%;
 }
-#marge{
-	margin-right: 50px;
+#container1{
+	margin-left: 20%;
 }
+
+
+
+
 @media all and (max-width: 1024px){
-	h1,h2{
+	h1, #soustitre{
 		text-align: center;
-		font-size: 25px;
+		font-size: 15px;
+	}
+	h2{
+		
+		font-size: 12px;
 	}
 	#photo{
 		width: 100px;
@@ -179,7 +190,8 @@ h4{
 	}
 	aside{
 		width: 25%;
-		height: 100%;
+		height: auto;
+		
 	}
 	#ligne1{
 		display: none;
@@ -189,11 +201,12 @@ h4{
 		
 	}
 	p{
-		font-size: 10px;
+		font-size: 12px;
 	}
 	#coordonees{
 		margin-top: 10px;
 	}
+	
 	#contact{
 		margin-top: -40px;
 	}
@@ -214,10 +227,10 @@ h4{
 	}
 	#texte{
 		text-align: left;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0%;
-		margin-bottom: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 20%;
+		margin-bottom: 80px;
 	}
 	.fas.fa-music{
 		margin-left: 35px;
@@ -225,6 +238,140 @@ h4{
 	#profil{
 		padding: 0;
 		padding-top: 35px;
+	}
+	.container{
+		font-size: 10px;
+		margin-left: 18%;
+	}
+	
+	.recom{
+		margin-left: 25%;
+	}
+	.fas.fa-futbol, .fas.fa-gamepad, .fas.fa-music{
+		font-size: 32px;
+	}
+	.fas.fa-music{
+		margin-right: 43px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	.fas.fa-futbol, .fas.fa-gamepad{
+		margin-top: 20px;
+	}
+	.job{
+		height: 120px;
+	}
+	.dates{
+		height: 95px;
+	}
+	#recommandation{
+		margin-top: -30px;
+	}
+	#container1{
+		margin-left: 20%;
+	}
+	#marge{
+		margin-left: -7%;
+	}
+	
+	
+
+}
+@media all and (min-width: 420px) and (max-width: 700px){
+	#photo{
+		width: 70px;
+		height:70px;
+		margin-top: 15px;
+	}
+	p{
+		font-size: 8px
+	}
+	#logolinkedin, #logofacebook, #logotwitter{
+		width: 20px
+	}
+	.fas.fa-music, .fas.fa-futbol, .fas.fa-gamepad{
+		font-size: 11px
+	}
+	.corps{
+		margin-left: 30px
+	}
+	
+	aside{
+		height: auto;
+	}
+	#coordonees{
+		margin-top: 30px;
+		font-size: 10px;
+	}
+	#texte{
+		font-size: 10px;
+		text-align: justify;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	.container{
+		margin-left: 17%;
+	}
+	#marge{
+		margin-left: -7%;
+	}
+	#container1{
+		margin-left: 20%;
+	}
+
+}
+@media all and (max-width: 419px){
+	.container{
+		margin-left: 17%;
+	}
+	#texte{
+		text-align: justify;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-size: 7px;
+	}
+	.fas.fa-music, .fas.fa-futbol, .fas.fa-gamepad{
+		font-size: 8px;
 
 	}
-}
+	.fas.fa-futbol, .fas.fa-gamepad{
+		margin-left: 5px;
+		margin-right: 10px;
+	}
+	.fas.fa-music{
+
+	}
+	#photo{
+		width: 70px;
+		height:70px;
+		margin-top: 15px;
+	}
+	p{
+		font-size: 7px;
+	}
+	#logolinkedin, #logofacebook, #logotwitter{
+		width: 15px;
+	}
+	#coordonees{
+		margin-top: 25px;
+	}
+	.job{
+		height: 105px;
+	}
+	.dates{
+		margin-left: -4%;
+	}
+	.marge{
+		margin-left: -7%;
+	}
+	#container1{
+		margin-left: 20%;
+	}
+	aside{
+		height: auto;
+	}
+}	
+
+
+
+	
