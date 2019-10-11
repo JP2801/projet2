@@ -1,376 +1,204 @@
+body{
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	width: 1330px;
+	height: 330px;
+}
+#titre{
+	text-align: center;
+	padding-top: 85px;
+}
 #photo{
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	overflow: hidden;
-	display: block;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	box-shadow:0 0 12px 5px black;
+	position: absolute;
+	margin-left: 20px;
+    margin-top: 55px;
+    box-shadow:0 0 12px 5px black;
 }
-aside{
-	width: 22%;
-	height:auto;
-	background-color:#039BE5;
-	position:absolute;
-   	top: 0;
-   	left: 0;  
-   	bottom: 0;
+#container{
+	display: flex;
+}
+#gauche{
+    width: 20%;
+    text-align: center;
+	background-color:#039BE5; 
+	border: 2px; 
+	border-color:#646464; 
+	color: black;
+	font-size: 20px;;
+    margin-top: -363px;
+    padding-top: 366px;
+    margin-left: -8px;
 }
 
-#contact, #apropos, #loisirs{
-	text-align: center;
+#droite{ 
+    width: 942px;
+    width: 80%;
 }
-#logolinkedin, #logofacebook, #logotwitter{
-	width:60px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-
+#logofacebook, #logotwitter, #logolinkedin{
+	width: 60px;
 }
-#profil{
-	padding: 15px;
+.descriptif{
+	display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
-#texte{
-	margin-left: 40px;
-	margin-right: 20px;
-	text-align: justify;
-	margin-top: 40px;	
-	margin-right: 60px;
-	margin-bottom: 350px;
-	
+.dates{
+	width: 35%;
 }
-h3{
+.texte{
+	width: 65%;
+}
+.marge{
+	margin-left: 60px;
+}
+h6{
 	text-align: center;
 	background-color:#BDBDBD; 
 	border: 2px; 
 	border-color:#646464; 
 	color: black;
 	font-size: 30px;
-
+	margin-top: 18px;
+	margin-bottom: 20px;
 }
-body{
-	color: black;
-	font-family: 'Open Sans', sans-serif;
+#lien{
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
-.prenom{
-	color: #039BE5;
+#texte{
+	margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+}
+h3{
+	font-size: 30px;
+    margin-left: -206px;
 }
 h2{
-	font-size: 30px;
-}
-header {
-	width: 70%;
-	margin-left: 25%;
-	margin-top: 0%;
-	padding-top: 5%;
-}
-#logolinkedin{
-	margin-left: 5%;
-	margin-right: 5%;
-}
-#ligne1{
-	width: 15%;
-	border: none;
-  	border-bottom: 1px solid #039BE5 ;
-  	margin-top: -1%;
-  	margin-left: 0%;
-}
-#coordonees{
-	text-align: left;
-	margin-left: 10%;
-	margin-top: 80px;
-}
-#formation{
-	width: 70%;
-	margin-left: 28%;
-	margin-top: 5%;
-}
-#experience, #recommandation{
-	margin-left: 28%;
-	width: 70%;
-	margin-top: 5%;
-}
-
-#ligne2, #ligne3, #ligne4{
-	width: auto;
-	border: none;
-  	border-bottom: 1px solid #039BE5 ;
-  	margin-top: -1%;
-  	margin-left: auto;
-}
-.container{
-	display: flex;
-	justify-content: space-around;
-	width: 80%;
-	height:25%;
-	margin-top: 5%;
-	margin-left: 18%;
-}
-.recom{
-	display: flex;
-	justify-content: space-around;
-	width: 80%;
-	height:25%;
-	margin-top: 5%;
-	margin-left: 18%;
-}
-body{
-	position: relative;
-	margin: 0;
-}
-h1, h2{
-	margin-top: 0;
+	margin-left: 55px;
 }
 h1{
-	font-size: 50px;
+	font-size: 40px;
+	margin-bottom: -25px;
+	margin-right: 155px;
 }
-.dates{
-	height: 150px;
+#thomas{
+	color:#039BE5;
 }
-#dates3{
-	margin-top: 70px;
+#ligne1{
+	width: 9%;
+    border: none;
+    border-bottom: 2px solid #039BE5;
+    margin-top: -2%;
+    margin-left: 28%;
 }
-#marge{
-	margin-left: -7%;
+.ligne{
+	width: 995px;
+    border: none;
+    border-bottom: 2px solid #039BE5;
+    margin-top: -1%;
+    margin-left: 5%;
 }
-.job{
-	height: 175px;
-}
-#job3{
-	margin-top: 50px;
-}
-.recom p{
-	margin-bottom: 30px;
-}
-h4{
-	margin: 0;
-	magin-top: 10px;
-}
-.fas.fa-music{
-	margin-left: 50px;
-	margin-right: 50px;
-	font-size: 50px;
-	margin-top: 20px;
-}
-.fas.fa-futbol, .fas.fa-gamepad{
-	font-size: 50px;
-	margin-top: 20px;
+#icone{
+	font-size: 40px;
+    margin-top: 48px;
+    font-family: monospace;
 }
 .fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase, .fas.fa-pencil-alt{
 	color: #039BE5;
-	margin-right: 10px;
 }
-.fas.fa-graduation-cap{
-	
-	margin-top: 5%;
+#recom{
+	display: flex;
+	justify-content: space-evenly;
 }
-#container1{
-	margin-left: 20%;
-}
-
-
-
-
 @media all and (max-width: 1024px){
-	h1, #soustitre{
-		text-align: center;
-		font-size: 15px;
+	#container{
+		display: flex;
+		flex-direction: column-reverse;
 	}
-	h2{
-		
-		font-size: 12px;
+	#gauche{
+		width: auto;
+		margin-top: 10px;
+    	padding-top: 10px;
+    	display: flex;
+    	flex-direction: column;
 	}
-	#photo{
-		width: 100px;
-		height: 100px;
-		margin-top: 30px;
+	header{
+		background-color:#039BE5; 
 	}
-	aside{
-		width: 25%;
-		height: auto;
-		
+	#titre{
+		    margin-right: 164px;
+		   	padding-top: 75px;
+	}
+	#thomas{
+		color: white;
 	}
 	#ligne1{
-		display: none;
-	}
-	h3{
-		font-size: 10px;
-		
-	}
-	p{
-		font-size: 12px;
-	}
-	#coordonees{
-		margin-top: 10px;
-	}
-	
-	#contact{
-		margin-top: -40px;
-	}
-	#logolinkedin{
-		
-		margin-top:10px;
-		width: 30px;
-	}
-	#logofacebook{
-		margin-top: 10px;
-		width: 30px;
-		
-	}
-	#logotwitter{
-		margin-top: 10px;
-		width: 30px;
-		
-	}
-	#texte{
-		text-align: left;
-		margin-left: 5px;
-		margin-right: 5px;
-		margin-top: 20%;
-		margin-bottom: 80px;
-	}
-	.fas.fa-music{
-		margin-left: 35px;
-	}
-	#profil{
-		padding: 0;
-		padding-top: 35px;
-	}
-	.container{
-		font-size: 10px;
-		margin-left: 18%;
-	}
-	
-	.recom{
+		border-bottom: 2px solid white;
 		margin-left: 25%;
 	}
-	.fas.fa-futbol, .fas.fa-gamepad, .fas.fa-music{
-		font-size: 32px;
+	#lien{
+		    display: flex;
+    		flex-direction: column;
+    		align-items: flex-end;
+    		margin-top: -197px;
+    		margin-right: 130px;
+	}
+	#contact{
+		text-align: center;
+    	margin-right: 404px;
+    	margin-bottom: -53px;
 	}
 	.fas.fa-music{
-		margin-right: 43px;
-		margin-top: 40px;
-		margin-bottom: 20px;
+		margin-left: 60px;
+    	margin-right: 60px;
 	}
-	.fas.fa-futbol, .fas.fa-gamepad{
-		margin-top: 20px;
+	#icone{
+		font-size: 50px;
+		margin-top: 0px;
 	}
-	.job{
-		height: 120px;
-	}
-	.dates{
-		height: 95px;
-	}
-	#recommandation{
-		margin-top: -30px;
-	}
-	#container1{
-		margin-left: 20%;
-	}
-	#marge{
-		margin-left: -7%;
-	}
-	
-	
-
-}
-@media all and (min-width: 420px) and (max-width: 700px){
-	#photo{
-		width: 70px;
-		height:70px;
-		margin-top: 15px;
-	}
-	p{
-		font-size: 8px
-	}
-	#logolinkedin, #logofacebook, #logotwitter{
-		width: 20px
-	}
-	.fas.fa-music, .fas.fa-futbol, .fas.fa-gamepad{
-		font-size: 11px
-	}
-	.corps{
-		margin-left: 30px
-	}
-	
-	aside{
-		height: auto;
-	}
-	#coordonees{
+	#logolinkedin{
 		margin-top: 30px;
-		font-size: 10px;
+    	margin-bottom: 30px;
 	}
-	#texte{
-		font-size: 10px;
-		text-align: justify;
-		margin-right: 10px;
-		margin-left: 10px;
+	#apropos{
+		margin-top: -40px;
 	}
-	.container{
-		margin-left: 17%;
+	p, #texte, .dates, h4, h5{
+		font-size: 20px;
 	}
-	#marge{
-		margin-left: -7%;
+@media all and (min-width: 360px) and (max-width: 700px){
+	h1{
+		font-size: 29px;
+    	margin-bottom: -25px;
+    	margin-right: 810px;
 	}
-	#container1{
-		margin-left: 20%;
+	h3{
+		font-size: 23px;
+    	margin-left: -840px;
 	}
-
-}
-@media all and (max-width: 419px){
-	.container{
-		margin-left: 17%;
+	#ligne1{
+		margin-left: 2%;
 	}
-	#texte{
-		text-align: justify;
-		margin-right: 10px;
-		margin-left: 10px;
-		font-size: 7px;
-	}
-	.fas.fa-music, .fas.fa-futbol, .fas.fa-gamepad{
-		font-size: 8px;
-
-	}
-	.fas.fa-futbol, .fas.fa-gamepad{
-		margin-left: 5px;
-		margin-right: 10px;
-	}
-	.fas.fa-music{
-
+	#titre{
+		padding-top: 190px;
 	}
 	#photo{
-		width: 70px;
-		height:70px;
-		margin-top: 15px;
+		margin-left: 77px;
+    	margin-top: 22px;
+    	height: 180px;
+    	width: 180px;
 	}
-	p{
-		font-size: 7px;
+	p, #texte, .dates, h4, h5{
+		font-size: 15px;
 	}
-	#logolinkedin, #logofacebook, #logotwitter{
-		width: 15px;
-	}
-	#coordonees{
-		margin-top: 25px;
-	}
-	.job{
-		height: 105px;
-	}
-	.dates{
-		margin-left: -4%;
-	}
-	.marge{
-		margin-left: -7%;
-	}
-	#container1{
-		margin-left: 20%;
-	}
-	aside{
-		height: auto;
-	}
-}	
+}
+
 
 
 
