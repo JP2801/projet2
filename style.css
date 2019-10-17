@@ -1,22 +1,25 @@
 body{
 	color: black;
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
 }
 header{
-	width: 1330px;
+	width: auto;
 	height: 330px;
+	display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  
 }
 #titre{
 	text-align: center;
-	padding-top: 85px;
 }
 #photo{
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
-	position: absolute;
-	margin-left: 20px;
-    margin-top: 55px;
+	position: relative;
+	margin-left: -217px;
     box-shadow:0 0 12px 5px black;
 }
 #container{
@@ -34,10 +37,8 @@ header{
     padding-top: 366px;
     margin-left: -8px;
 }
-
-#droite{ 
-    width: 942px;
-    width: 80%;
+#droite{
+	width: 80%;
 }
 #logofacebook, #logotwitter, #logolinkedin{
 	width: 60px;
@@ -63,8 +64,8 @@ h6{
 	border-color:#646464; 
 	color: black;
 	font-size: 30px;
-	margin-top: 18px;
-	margin-bottom: 20px;
+	margin:0;
+	
 }
 #lien{
 	margin-top: 60px;
@@ -73,32 +74,31 @@ h6{
 #texte{
 	margin-left: 20px;
     margin-right: 20px;
-    font-size: 17px;
+    font-size: 21px;
 }
 h3{
 	font-size: 30px;
-    margin-left: -206px;
+	margin-right: 50px;
 }
 h2{
 	margin-left: 55px;
 }
 h1{
 	font-size: 40px;
-	margin-bottom: -25px;
-	margin-right: 155px;
+	
 }
 #thomas{
 	color:#039BE5;
 }
 #ligne1{
-	width: 9%;
+	width: 43%;
     border: none;
     border-bottom: 2px solid #039BE5;
     margin-top: -2%;
-    margin-left: 28%;
+    margin-left: 2%;
 }
 .ligne{
-	width: 995px;
+	width: auto;
     border: none;
     border-bottom: 2px solid #039BE5;
     margin-top: -1%;
@@ -109,50 +109,51 @@ h1{
     margin-top: 48px;
     font-family: monospace;
 }
-.fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase, .fas.fa-pencil-alt{
+.fas.fa-graduation-cap, .far.fa-dot-circle, .fas.fa-suitcase, .fas.fa-pencil-alt, .fas.fa-circle{
 	color: #039BE5;
 }
 #recom{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
-@media all and (max-width: 1024px){
+@media all and (max-width: 1180px){
 	#container{
 		display: flex;
 		flex-direction: column-reverse;
+
+	}
+	#photo{
+		margin-left: 170px;
 	}
 	#gauche{
-		width: auto;
+		width:auto;
 		margin-top: 10px;
     	padding-top: 10px;
     	display: flex;
     	flex-direction: column;
 	}
 	header{
-		background-color:#039BE5; 
-	}
-	#titre{
-		    margin-right: 164px;
-		   	padding-top: 75px;
+		background-color:#039BE5;
+		display: flex;
+    	justify-content: space-evenly;
+    	width: auto;
 	}
 	#thomas{
 		color: white;
 	}
 	#ligne1{
 		border-bottom: 2px solid white;
-		margin-left: 25%;
+		
 	}
 	#lien{
-		    display: flex;
-    		flex-direction: column;
-    		align-items: flex-end;
-    		margin-top: -197px;
-    		margin-right: 130px;
+		display: flex;
+    	flex-direction: column;
 	}
 	#contact{
 		text-align: center;
-    	margin-right: 404px;
-    	margin-bottom: -53px;
+    	display: flex;
+    	justify-content: space-evenly;
+    	align-items: center;
 	}
 	.fas.fa-music{
 		margin-left: 60px;
@@ -172,31 +173,32 @@ h1{
 	p, #texte, .dates, h4, h5{
 		font-size: 20px;
 	}
+}
 @media all and (min-width: 360px) and (max-width: 700px){
 	h1{
 		font-size: 29px;
-    	margin-bottom: -25px;
-    	margin-right: 810px;
 	}
 	h3{
 		font-size: 23px;
-    	margin-left: -840px;
 	}
 	#ligne1{
 		margin-left: 2%;
 	}
-	#titre{
-		padding-top: 190px;
-	}
 	#photo{
-		margin-left: 77px;
-    	margin-top: 22px;
     	height: 180px;
     	width: 180px;
+    	margin-left: 0;
 	}
 	p, #texte, .dates, h4, h5{
 		font-size: 15px;
 	}
+	header{
+		flex-direction: column;
+    	align-items: center;
+    	justify-content: center;
+    	margin-left: 0;
+	}
+
 }
 
 
