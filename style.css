@@ -7,19 +7,26 @@ header{
 	width: auto;
 	height: 330px;
 	display: flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
-  
 }
 #titre{
-	text-align: center;
+	width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 5%;
+}
+#image{
+	width: 20%;
+    display: flex;
+    justify-content: center;
 }
 #photo{
 	height: 200px;
 	width: 200px;
 	border-radius: 100px;
 	position: relative;
-	margin-left: -217px;
     box-shadow:0 0 12px 5px black;
 }
 #container{
@@ -63,7 +70,7 @@ h6{
 	border: 2px; 
 	border-color:#646464; 
 	color: black;
-	font-size: 30px;
+	font-size: 28px;
 	margin:0;
 	
 }
@@ -74,11 +81,12 @@ h6{
 #texte{
 	margin-left: 20px;
     margin-right: 20px;
-    font-size: 21px;
+    font-size: 18px;
 }
 h3{
 	font-size: 30px;
 	margin-right: 50px;
+	margin-top: -2%;
 }
 h2{
 	margin-left: 55px;
@@ -91,11 +99,11 @@ h1{
 	color:#039BE5;
 }
 #ligne1{
-	width: 43%;
+	width: 10%;
     border: none;
     border-bottom: 2px solid #039BE5;
     margin-top: -2%;
-    margin-left: 2%;
+    margin-left: 0%;
 }
 .ligne{
 	width: auto;
@@ -120,10 +128,6 @@ h1{
 	#container{
 		display: flex;
 		flex-direction: column-reverse;
-
-	}
-	#photo{
-		margin-left: 170px;
 	}
 	#gauche{
 		width:auto;
@@ -137,6 +141,16 @@ h1{
 		display: flex;
     	justify-content: space-evenly;
     	width: auto;
+	}
+	#image{
+		width: 50%;
+		display: flex;
+		}
+	#titre{
+		width: 80%;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: start;
 	}
 	#thomas{
 		color: white;
@@ -176,27 +190,31 @@ h1{
 }
 @media all and (min-width: 360px) and (max-width: 700px){
 	h1{
-		font-size: 29px;
+		font-size: 25px;
 	}
 	h3{
-		font-size: 23px;
+		font-size: 18px;
 	}
 	#ligne1{
-		margin-left: 2%;
+		display: none;
 	}
 	#photo{
     	height: 180px;
     	width: 180px;
     	margin-left: 0;
 	}
+	#image{
+		}
+	#titre{
+		align-items: center;
+	}
 	p, #texte, .dates, h4, h5{
 		font-size: 15px;
 	}
 	header{
 		flex-direction: column;
-    	align-items: center;
-    	justify-content: center;
-    	margin-left: 0;
+		padding-top: 5%;
+    	padding-bottom: 5%;
 	}
 
 }
