@@ -18,7 +18,7 @@ header{
     padding-left: 5%;
 }
 #image{
-	width: 20%;
+	width: 20%; /*div photo partie gauche */
     display: flex;
     justify-content: center;
 }
@@ -30,10 +30,11 @@ header{
     box-shadow:0 0 12px 5px black;
 }
 #container{
-	display: flex;
+	display: flex; /* tout sauf le header */
 }
 #gauche{
-    width: 20%;
+	/* partie bannière bleue */
+    width: 20%; /* même largeur que div #image */
     text-align: center;
 	background-color:#039BE5; 
 	border: 2px; 
@@ -45,6 +46,7 @@ header{
     margin-left: -8px;
 }
 #droite{
+	/* section formation, experience, recommandation */
 	width: 80%;
 }
 #logofacebook, #logotwitter, #logolinkedin{
@@ -59,9 +61,11 @@ header{
 	width: 35%;
 }
 .texte{
+	/* texte a propos */
 	width: 65%;
 }
 .marge{
+	/* marge entre section droite et gauche */
 	margin-left: 60px;
 }
 h6{
@@ -96,6 +100,7 @@ h1{
 	
 }
 #thomas{
+	/*titre avec couleur diffèrente */
 	color:#039BE5;
 }
 #ligne1{
@@ -121,10 +126,12 @@ h1{
 	color: #039BE5;
 }
 #recom{
+	/* partie recommandation */
 	display: flex;
 	justify-content: space-around;
 }
 @media all and (max-width: 1180px){
+	/* reponsive tablette */
 	#container{
 		display: flex;
 		flex-direction: column-reverse;
@@ -189,6 +196,7 @@ h1{
 	}
 }
 @media all and (min-width: 360px) and (max-width: 700px){
+	/*reponsive smartphone*/
 	h1{
 		font-size: 25px;
 	}
