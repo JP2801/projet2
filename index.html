@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="fr">
+	
 	<head>
-		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<meta name="viewport" content="width=device-width, user-scalable=yes">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
@@ -15,7 +15,7 @@
 	<header> <!-- photo + titre = header -->
 
 		<div id="image">
-			<img id="photo" src="photoprofil.jpg"/>	
+			<img id="photo" alt="photoprofil" src="photoprofil.jpg"/>	
 		</div>
 
 		<div id="titre">
@@ -30,33 +30,35 @@
 
 		<aside id="gauche"> <!-- couleur bleue, côté gauche -->
 
-			<h6>CONTACT</h6>
+			
 
 				<section id="contact">
+					
+					<h6>CONTACT</h6>
+					<div id="contactlien">
+						<div>
+							<p><b>ADRESSE</b><br>
+							14 rue Porte Rabel<br>
+							61300 L'Aigle</p>
 
-					<div>
-						<p><b>ADRESSE</b><br>
-						14 rue Porte Rabel<br>
-						61300 L'Aigle</p>
+							<p><b>TELEPHONE</b><br>
+							07.83.61.95.86</p>
 
-						<p><b>TELEPHONE</b><br>
-						07.83.61.95.86</p>
+							<p><b>EMAIL</b><br>
+							jp.thom86@gmail.com</p>
+						</div>
 
-						<p><b>EMAIL</b><br>
-						jp.thom86@gmail.com</p>
+						<div id="lien">
+							<a href="https://www.facebook.com/profile.php?id=100000510637595"> <img id="logofacebook" src="logofacebook.png" title= "Profil Facebook"/></a> 
+
+							<a href="https://www.linkedin.com/in/jpthomas86"> <img id="logolinkedin" src="logolinkedin.png" title= "Profil Linkedin"/></a> 
+				
+							<a href="https://twitter.com/jpthom86"> <img id="logotwitter" src="logotwitter.png" title= "Profil Twitter"/></a>
+						</div>
 					</div>
-
-					<div id="lien">
-						<a href="https://www.facebook.com/profile.php?id=100000510637595"> <img id="logofacebook" src="logofacebook.png"title= "Profil Facebook"/></a> 
-
-						<a href="https://www.linkedin.com/in/jpthomas86"> <img id="logolinkedin" src="logolinkedin.png"title= "Profil Linkedin"/></a> 
-			
-						<a href="https://twitter.com/jpthom86"> <img id="logotwitter" src="logotwitter.png" title= "Profil Twitter"/></a>
-					</div>
-
 				</section>
 
-				<section id="a propos">
+				<section>
 
 					<h6>À PROPOS DE MOI</h6>
 					<p id="texte">Marié, père de trois enfants, je suis actuellement en reconversion professionnelle. Avant cela j'étais dans le domaine automobile, plus présicement dans le service client à l'après-vente.<br>
@@ -68,13 +70,13 @@
 
 					<h6>LOISIRS</h6>
 			
-						<section id="icone">
+						<div id="icone">
 
 							<i class="fas fa-futbol"></i>
 							<i class="fas fa-music"></i>
 							<i class="fas fa-gamepad"></i>
 
-						</section>
+						</div>
 
 				</section>
 
@@ -88,71 +90,70 @@
 				<div class="marge">
 
 					<section class="descriptif">
-						<span class="dates"><i class="far fa-dot-circle"></i> 2019<br>L'Aigle (61)</span>
-						<span class="texte"><h4>OPENCLASSROOMS</h4>
+						<div class="dates"><i class="far fa-dot-circle"></i> 2019<br>L'Aigle (61)</div>
+						<div class="texte"><h4>OPENCLASSROOMS</h4>
 						<h5>Développeur web junior</h5>
-						<p>Actuellement en formation chez Openclassrooms,ayant pour objectif de continuer en apprentissage pour perfectionner mes compétences.</p></span>
+						<p>Actuellement en formation chez Openclassrooms,ayant pour objectif de continuer en apprentissage pour perfectionner mes compétences.</p></div>
 
 					</section>
 
 					<section class="descriptif">
-						<span class="dates"><i class="fas fa-circle"></i>  2018-2019<br>L'Aigle (61)</span>
-						<span class="texte"><h4>GRETA</h4>
+						<div class="dates"><i class="fas fa-circle"></i>  2018-2019<br>L'Aigle (61)</div>
+						<div class="texte"><h4>GRETA</h4>
 						<h5>Anglais</h5>
 						<p>Remise à niveau d'anglais avec le GRETA
-						j'ai atteint le niveau A2</p></span>
+						j'ai atteint le niveau A2</p></div>
 
 					</section>
 
 					<section class="descriptif">
-						<span class="dates"><i class="fas fa-circle"></i>  2003-2005<br>Caen (14)</span>
-						<span class="texte"><h4>Lycée Jules Verne </h4>
+						<div class="dates"><i class="fas fa-circle"></i>  2003-2005<br>Caen (14)</div>
+						<div class="texte"><h4>Lycée Jules Verne </h4>
 						<h5>Bac Pro</h5>
 						<p>Obtention du diplôme de baccalauréat professionnel
-						en Maintenance des Véhicules Automobiles</p><span>
+						en Maintenance des Véhicules Automobiles</p></div>
 
 					</section>
-
-
 				</div>
 			
+
 			<h2><i class="fas fa-suitcase"></i> EXPÉRIENCE PROFESSIONNELLE</h2>
 			<hr class="ligne">
 
 				<div class="marge"> <!-- div marge pour espace entre section droite et gauche -->
 
 					<section class="descriptif">
-						<span class="dates"><i class="far fa-dot-circle"></i>  2017-2018<br>L'Aigle (61)</span>
-						<span class="texte"><h4>BOULANGERIE DRIVE</h4>
+						<div class="dates"><i class="far fa-dot-circle"></i>  2017-2018<br>L'Aigle (61)</div>
+						<div class="texte"><h4>BOULANGERIE DRIVE</h4>
 						<h5>Vendeur</h5>
-						<p>Réalisation et vente de sandwichs</p></span>
+						<p>Réalisation et vente de sandwichs</p></div>
 
 					</section>
 
 					<section class="descriptif">
-						<span class="dates"><i class="fas fa-circle"></i>  2011-2017<br>L'Aigle (61)</span>
-						<span class="texte"><h4>VOLKSWAGEN POIRIER</h4>
+						<div class="dates"><i class="fas fa-circle"></i>  2011-2017<br>L'Aigle (61)</div>
+						<div class="texte"><h4>VOLKSWAGEN POIRIER</h4>
 						<H5>Magasinier-réceptionnaire</H5>
 						<p>Responsable du stock de pièces détachées
 						accueil, et pris en charge des clients du service après-vente 
-						Etablissement de devis, ordres de réparations et factures</p></span>
+						Etablissement de devis, ordres de réparations et factures</p></div>
 
 					</section>
 
 					<section class="descriptif">
-						<span class="dates"><i class="fas fa-circle"></i>  2009-2011<br>L'Aigle (61)</span>
-						<span class="texte"><h4>AUTO-DISTRIBUTION</h4>
+						<div class="dates"><i class="fas fa-circle"></i>  2009-2011<br>L'Aigle (61)</div>
+						<div class="texte"><h4>AUTO-DISTRIBUTION</h4>
 						<H5>Vendeur</H5>
-						<p>Vente de pièces détachées</p></span>
+						<p>Vente de pièces détachées</p></div>
 
 					</section>
 
 				</div>	
-						
-					<h2><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h2>
-					<hr class="ligne">
-
+				<div>		
 					<section>
+
+						<h2><i class="fas fa-pencil-alt"></i>RECOMMANDATIONS</h2>
+						<hr class="ligne">
 
 						<div id="recom">
 							<p><strong>Mon mentor Openclassrooms</strong><br>
@@ -165,6 +166,7 @@
 					</section>
 							
 				</div>
+		</section>
 	</div>
 
 </body>
